@@ -1,0 +1,60 @@
+/* p.error {
+    color: red;
+}
+
+p.success {
+    color: #00ce00;
+}
+
+p.success.feedback {
+    border: 1px dashed #00ce00;
+}
+
+div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+/* IDs can't be used repeatedly for different elements in a same page as they are unique,
+but we can use class names to target different elements. */
+
+/* div .error {
+    color: red;
+} */
+
+/* If we add a * before the equal sign(=) we get to select an element based on a 
+part of the atrribute. Similarly if we add aa $ before the equal sign we get
+to select an element based on the last portion of the attribute  */
+
+/* to select an element based on its attribute :-  */
+
+/* a[href*="youtube"] {                        
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a[href$=".com"] {
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+div {
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p {
+    color: orange;
+}
